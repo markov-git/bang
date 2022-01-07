@@ -1,7 +1,8 @@
 import * as React from 'react';
+import { BangGame } from './Components/BangGame/BangGame';
 
 export const App: React.FC = () => {
 	return (
-		<h1>Hello World</h1>
-	)
-}
+		<BangGame/>
+	);
+};
